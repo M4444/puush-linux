@@ -88,8 +88,8 @@ class PuushArea:
 			sleep(0.5)
 
 			if self.area[0] != 0 and self.area[1] != 0:
-				x = int(min(self.origin[0], self.origin[0] + self.area[0]))
-				y = int(min(self.origin[1], self.origin[1] + self.area[1]))
+				x = 90 - 23 + int(min(self.origin[0], self.origin[0] + self.area[0]))
+				y = 24 + int(min(self.origin[1], self.origin[1] + self.area[1]))
 				w = int(abs(self.area[0]))
 				h = int(abs(self.area[1]))
 
